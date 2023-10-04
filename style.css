@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  justify-content: center;
+}
+
+.first-set {
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+  /* height: 69px; */
+  /* position: fixed; */
+  /* display: flex; */
+}
+
+#logo {
+}
+
+#nav li {
+  display: flex;
+  justify-content: flex-end;
+  /* float: right; */
+}
+
+#second-set {
+  margin-top: 69px;
+}
