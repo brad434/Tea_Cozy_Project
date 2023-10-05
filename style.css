@@ -49,6 +49,33 @@ body {
   text-align: center;
 }
 
-#heroImg {
-  max-width: 100%;
+#third-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  flex-wrap: wrap;
+  padding: 10px; /* for spacing between images*/
+}
+
+.container {
+  border: 1px solid yellow;
+  max-width: 1000px;
+}
+
+.container h2,
+#subtitle {
+  text-align: center;
+}
+
+.teaCards {
+  margin: 10px;
+  border: 1px solid red;
+  width: 250px;
+  text-align: center;
+}
+.teaCards img {
+  max-width: 100%; /* ensure the images fits within the card*/
+  height: auto;
+  margin: 5px; /* add spacing around the images*/
 }
