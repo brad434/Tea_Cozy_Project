@@ -14,6 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
+  position: fixed;
 }
 
 #logo {
@@ -23,6 +24,7 @@ body {
 #nav {
   list-style: none;
   display: flex;
+  text-decoration: underline;
 }
 
 .nav_items {
@@ -118,4 +120,14 @@ body {
   margin-right: 40px;
   margin-top: 15px;
   opacity: 1;
+}
+
+#last-set {
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
